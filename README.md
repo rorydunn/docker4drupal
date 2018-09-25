@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Docker4Drupal is a set of docker images optimized for Drupal. Use `docker-compose.yml` file from the [latest stable release](https://github.com/wodby/docker4drupal/releases) to spin up local environment on Linux, Mac OS X and Windows. 
+Docker4Drupal is a set of docker images optimized for Drupal. Use `docker-compose.yml` file from the [latest stable release](https://github.com/wodby/docker4drupal/releases) to spin up local environment on Linux, Mac OS X and Windows.
 
 * Read the docs on [**how to use**](https://wodby.com/docs/stacks/drupal/local#usage)
 * Follow [@wodbycloud](https://twitter.com/wodbycloud) for future announcements
@@ -58,6 +58,11 @@ We regularly update images used in this stack and release them together, see [re
 ## License
 
 This project is licensed under the MIT open source license.
+
+## Rory's Edits
+* removed "docker-compose.override.yml" file
+* changed out nginx for apache
+* changed value of "APACHE_DOCUMENT_ROOT:"
 
 [Apache]: https://wodby.com/docs/stacks/drupal/containers#apache
 [AthenaPDF]: https://wodby.com/docs/stacks/drupal/containers#athenapdf
